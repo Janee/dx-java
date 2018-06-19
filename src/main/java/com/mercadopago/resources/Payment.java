@@ -23,7 +23,7 @@ import java.util.Date;
 @Idempotent
 public class Payment extends MPBase {
 
-    private String id = null;
+    private Integer id = null;
     private Date dateCreated = null;
     private Date dateApproved = null;
     private Date dateLastUpdated = null;
@@ -104,7 +104,7 @@ public class Payment extends MPBase {
     private AdditionalInfo additionalInfo = null;
 
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
